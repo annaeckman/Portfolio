@@ -1,5 +1,6 @@
 //Ideas:
 projects with demos and live deployments from github
+
 include:
 python rock paper scissors!
 build this out into a site
@@ -19,3 +20,7 @@ music I like to code to with an array that it's randomly pulling from?
 [portfolio inspiration]()
 [portfolio inspiration]()
 [portfolio inspiration]()
+
+projects Page:
+
+small picture of each site...with video demo-ing the features, link to the site, link to the readme on github
