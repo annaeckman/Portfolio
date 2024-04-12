@@ -1,5 +1,5 @@
 @import url("../vendor/normalize.css");
-/* // import fonts here */
+@import url("../vendor/fonts/AL_Nevrada_PersonalUseOnly.ttf");
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
 @import url("../blocks/nav.css");
