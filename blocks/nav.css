@@ -20,7 +20,7 @@
   font-weight: bold;
   text-decoration: none;
   color: rgb(157, 231, 246);
-  transition: color 0.5s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 .nav__link:hover {

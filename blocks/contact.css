@@ -26,3 +26,8 @@
   color: rgb(157, 231, 246);
   margin: 0;
 }
+
+.contact__link:hover {
+  color: #2f80ed;
+  transition: color 0.3s ease-in-out;
+}
