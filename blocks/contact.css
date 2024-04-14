@@ -1,0 +1,28 @@
+.contact {
+  background-color: #050397b9;
+  padding-left: 30px;
+  margin: 0;
+  color: rgb(157, 231, 246);
+  font-family: "Nevrada";
+  font-size: 40px;
+  padding-bottom: 200px;
+  padding-top: 300px;
+}
+
+.contact__header {
+  margin: 0;
+  padding-bottom: 300px;
+  font-size: 200px;
+}
+
+.contact__links {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.contact__link {
+  text-decoration: none;
+  color: rgb(157, 231, 246);
+  margin: 0;
+}
