@@ -8,3 +8,9 @@
   src: url("./fonts/Platypi-Regular.ttf") format("truetype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "Platypi";
+  src: url("./fonts/Platypi-MediumItalic.ttf") format("truetype");
+  font-style: italic;
+}

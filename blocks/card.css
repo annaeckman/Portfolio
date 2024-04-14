@@ -14,5 +14,29 @@
 .card__title {
 }
 
-.card__text {
+.card__links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.card__link {
+  color: rgb(157, 231, 246);
+  text-decoration: none;
+  font-family: "Platypi";
+  font-size: 20px;
+}
+
+.card__link:hover {
+  cursor: pointer;
+  color: #2f80ed;
+}
+
+.card__description {
+  padding-top: 30px;
+  font-family: "Platypi";
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
 }
