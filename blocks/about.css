@@ -1,0 +1,47 @@
+.about {
+  /* height: 100vh; */
+  min-height: 720px;
+  background-color: #050397b9;
+  padding-left: 30px;
+  margin: 0;
+  color: rgb(157, 231, 246);
+}
+
+.about__header {
+  font-family: "Nevrada";
+  margin: 0;
+  padding-top: 100px;
+  font-size: 200px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  padding-bottom: 200px;
+}
+
+.about__content-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.about__subtitle {
+  margin-top: 0 30px;
+  font-size: 40px;
+}
+
+.about__subtitle-sub {
+  font-size: 28px;
+}
+
+.about__text {
+  font-family: "Platypi";
+  font-size: 22px;
+  line-height: 1.2;
+  max-width: 780px;
+}
+
+.about__image {
+  height: 540px;
+  width: 400px;
+  border-radius: 50px;
+}

@@ -3,7 +3,7 @@
   justify-content: space-between;
   height: 100vh;
   min-height: 720px;
-  max-height: 800px;
+  max-height: 1000px;
   background-color: #050397b9;
   padding-left: 30px;
 }
@@ -21,4 +21,5 @@
 
 .header__title:hover {
   color: #2f80ed;
+  cursor: pointer;
 }

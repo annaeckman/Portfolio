@@ -1,0 +1,18 @@
+.cards {
+}
+
+.card {
+}
+
+.card__image {
+  height: 260px;
+  width: 400px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.card__title {
+}
+
+.card__text {
+}

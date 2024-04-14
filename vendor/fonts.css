@@ -2,3 +2,9 @@
   font-family: "Nevrada";
   src: url("./fonts/AL_Nevrada_PersonalUseOnly.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Platypi";
+  src: url("./fonts/Platypi-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
