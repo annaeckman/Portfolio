@@ -1,26 +1,27 @@
-//Ideas:
-projects with demos and live deployments from github
+# Anna's Dev Portfolio
 
-include:
-python rock paper scissors!
-build this out into a site
-about me page
-get this from other laptop
-coffee shop site
-around the us site
-build a small thing out with the desmos code provided on their website?
+## Overview
 
-music I like to code to with an array that it's randomly pulling from?
+- [Add Published Link]()
 
-[portfolio inspiration](https://mattfarley.ca/)
-[portfolio inspiration](https://brittanychiang.com/#about)
-[portfolio inspiration](https://www.lauren-waller.com/work/karoo-bioscience)
-[portfolio inspiration]()
-[portfolio inspiration]()
-[portfolio inspiration]()
-[portfolio inspiration]()
-[portfolio inspiration]()
+* Project Description and features
+* Screenshots/Video
+* Technology Used
 
-projects Page:
+### Published Link
 
-small picture of each site...with video demo-ing the features, link to the site, link to the readme on github
+### Project Description and features
+
+- portfolio site featuring anna's about me page, projects, and contact info. The site is responsive, utilizes flexbox and flex grid, media queries, CSS animation and transform, and a flat BEM framework.
+
+### Screenshots/Video Demo
+
+![landing page](image.png)
+![about](image-1.png)
+![contact/footer](image-2.png)
+
+[-Add Video Link here]()
+
+### Technology Used
+
+- HTML/CSS, JAVASCRIPT, BEM, FLEXBOX, FLEXGRID,
