@@ -7,6 +7,7 @@
 * Project Description and features
 * Screenshots/Video
 * Technology Used
+* Features I would like to improve/add
 
 ### Published Link
 
@@ -24,4 +25,8 @@
 
 ### Technology Used
 
-- HTML/CSS, JAVASCRIPT, BEM, FLEXBOX, FLEXGRID,
+- HTML/CSS, JAVASCRIPT, BEM, FLEXBOX, FLEXGRID
+
+### Features to add
+
+-
