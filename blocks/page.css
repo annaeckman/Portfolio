@@ -7,3 +7,6 @@
   font-family: "Nevrada", Arial, sans-serif;
   background-color: black;
 }
+
+@media screen and (max-width: 536px) {
+}
