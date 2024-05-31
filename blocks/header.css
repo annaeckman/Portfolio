@@ -8,6 +8,17 @@
   padding-left: 30px;
 }
 
+.header__title-big {
+  justify-content: flex-start;
+  max-width: 400px;
+  font-family: "Nevrada";
+  line-height: 0.7;
+  font-size: 120px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(157, 231, 246);
+}
+
 .header__title {
   justify-content: flex-start;
   max-width: 400px;
