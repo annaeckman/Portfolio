@@ -17,9 +17,9 @@
 
 ### Screenshots/Video Demo
 
-![landing page](image.png)
-![about](image-1.png)
-![contact/footer](image-2.png)
+![landing page](./images/image.png)
+![about](./images/image-1.png)
+![contact/footer](./images/image-2.png)
 
 [-Add Video Link here]()
 
