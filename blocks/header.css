@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   height: 100vh;
   min-height: 720px;
   max-height: 1000px;
@@ -17,6 +17,26 @@
   font-weight: bold;
   text-decoration: none;
   color: rgb(157, 231, 246);
+  margin-bottom: 30px;
+}
+
+.header__subtitle {
+  color: rgb(157, 231, 246);
+  font-family: "Nevrada";
+  line-height: 0.7;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.header__tech-list {
+  color: rgb(157, 231, 246);
+  font-family: "Nevrada";
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .header__title {
