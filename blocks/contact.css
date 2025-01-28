@@ -1,5 +1,6 @@
 .contact {
-  background-color: #050397b9;
+  /* background-color: #050397b9; */
+  background-color: var(--main-bg-color);
   padding-left: 30px;
   margin: 0;
   color: rgb(157, 231, 246);
@@ -30,4 +31,12 @@
 .contact__link:hover {
   color: #2f80ed;
   transition: color 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact__header {
+    margin: 0;
+    padding-bottom: 200px;
+    font-size: 100px;
+  }
 }

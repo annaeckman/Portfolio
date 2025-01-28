@@ -1,6 +1,7 @@
 .footer {
   box-sizing: border-box;
-  background-color: #050397b9;
+  /* background-color: #050397b9; */
+  background-color: var(--main-bg-color);
   color: white;
   padding: 60px 0 60px 20px;
 }
