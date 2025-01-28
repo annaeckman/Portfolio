@@ -27,7 +27,13 @@
 /* Desktop (Laptops and larger screens) */
 @media (min-width: 1024px) {
 
-  
+  .projects__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    grid-gap: 30px 30px;
+    justify-content: center;
+  }
+
 }
 
 /* Wide-screen (Large desktops, wide monitors, etc.) */
