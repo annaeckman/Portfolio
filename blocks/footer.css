@@ -1,8 +1,8 @@
 .footer {
   box-sizing: border-box;
-  background-color: #050397b9;
+  /* background-color: #050397b9; */
+  background-color: var(--main-bg-color);
   color: white;
-  padding: 60px 0 60px 20px;
 }
 
 .footer__content {
@@ -18,5 +18,21 @@
   color: rgb(157, 231, 246);
 }
 
-@media screen and (max-width: 536px) {
+/* Tablet (Portrait and above, e.g., iPads, smaller devices) */
+@media (min-width: 768px) {
+
+
+
+}
+
+/* Desktop (Laptops and larger screens) */
+@media (min-width: 1024px) {
+
+  
+}
+
+/* Wide-screen (Large desktops, wide monitors, etc.) */
+@media (min-width: 1440px) {
+
+
 }

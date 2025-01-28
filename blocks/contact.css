@@ -1,24 +1,22 @@
 .contact {
-  background-color: #050397b9;
-  padding-left: 30px;
+  /* background-color: #050397b9; */
+  background-color: var(--main-bg-color);
   margin: 0;
   color: rgb(157, 231, 246);
   font-family: "Nevrada";
-  font-size: 40px;
-  padding-bottom: 200px;
-  padding-top: 300px;
+  font-size: 20px;
 }
 
 .contact__header {
   margin: 0;
-  padding-bottom: 300px;
-  font-size: 200px;
+  font-family: "Nevrada";
+  font-size: 50px;
 }
 
 .contact__links {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 30px;
+  /* display: flex;
+  justify-content: space-between; */
+  /* padding-right: 30px; */
 }
 
 .contact__link {
@@ -32,10 +30,31 @@
   transition: color 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 1000px) {
-  .contact__header {
-    margin: 0;
-    padding-bottom: 200px;
-    font-size: 100px;
+/* Tablet (Portrait and above, e.g., iPads, smaller devices) */
+@media (min-width: 768px) {
+
+  .contact__links {
+    display: flex;
+    justify-content: space-between;
   }
+
+
+}
+
+/* Desktop (Laptops and larger screens) */
+@media (min-width: 1024px) {
+
+  .contact__header {
+    font-size: 120px;
+  }
+  
+  .contact {
+    font-size: 40px;
+  }
+}
+
+/* Wide-screen (Large desktops, wide monitors, etc.) */
+@media (min-width: 1440px) {
+
+
 }

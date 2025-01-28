@@ -1,27 +1,22 @@
 .about {
-  background-color: #050397b9;
-  padding-left: 30px;
+  background-color: var(--main-bg-color);
   margin: 0;
   color: rgb(157, 231, 246);
 }
 
 .about__header {
   font-family: "Nevrada";
-  padding-top: 400px;
-  margin: 0 40px 100px 0;
-  font-size: 200px;
+  font-size: 60px;
   display: flex;
   justify-content: flex-end;
 }
 
 .about__content-container {
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  flex-direction: column;
 }
 
 .about__subtitle {
-  margin-top: 0 30px;
   font-size: 40px;
 }
 
@@ -31,25 +26,43 @@
 
 .about__text {
   font-family: "Platypi";
-  font-size: 22px;
   line-height: 1.2;
   max-width: 780px;
 }
 
 .about__image {
-  height: 540px;
-  width: 400px;
+  height: 100%;
+  max-width: 100%;
   border-radius: 50px;
 }
 
-@media screen and (max-width: 1000px) {
+/* Tablet (Portrait and above, e.g., iPads, smaller devices) */
+@media (min-width: 768px) {
+  
   .about__header {
-    font-size: 100px;
-    padding-bottom: 200px;
-    padding-top: 200px;
-  }
+    font-size: 120px;
+  }  
 
   .about__content-container {
-    flex-direction: column-reverse;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
   }
+  
+  .about__image {
+    height: auto;
+  }
+}
+
+/* Desktop (Laptops and larger screens) */
+@media (min-width: 1024px) {
+  .about__image {
+    width: fit-content;
+   }
+}
+
+/* Wide-screen (Large desktops, wide monitors, etc.) */
+@media (min-width: 1440px) {
+  
 }

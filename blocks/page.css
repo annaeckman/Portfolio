@@ -1,11 +1,39 @@
-.page {
-  max-width: calc(100%-5px);
-  margin: auto;
+.page p {
+  /* max-width: calc(100%-5px); */
+  /* margin: auto; */
+
   font-size: 16px;
   line-height: 20px;
-  font-family: "Nevrada", Arial, sans-serif;
-  background-color: black;
+  font-family: "Platypi";
+  word-wrap: break-word;
 }
 
-@media screen and (max-width: 536px) {
+h1, h2, h3, h4, h5 {
+  word-wrap: break-word;
+  font-family: "Nevrada", Arial, sans-serif;
+}
+
+
+header, section, footer {
+  padding: 20px;
+}
+
+
+/* Tablet (Portrait and above, e.g., iPads, smaller devices) */
+@media (min-width: 768px) {
+
+
+
+}
+
+/* Desktop (Laptops and larger screens) */
+@media (min-width: 1024px) {
+
+  
+}
+
+/* Wide-screen (Large desktops, wide monitors, etc.) */
+@media (min-width: 1440px) {
+
+
 }
