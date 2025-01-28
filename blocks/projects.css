@@ -10,7 +10,28 @@
   padding-left: 0;
 }
 
-@media screen and (max-width: 1200px) {
-  .projects__list {
+
+/* Tablet (Portrait and above, e.g., iPads, smaller devices) */
+@media (min-width: 768px) {
+
+  .projects__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
+
+
+}
+
+/* Desktop (Laptops and larger screens) */
+@media (min-width: 1024px) {
+
+  
+}
+
+/* Wide-screen (Large desktops, wide monitors, etc.) */
+@media (min-width: 1440px) {
+
+
 }

@@ -64,6 +64,11 @@
 /* Tablet (Portrait and above, e.g., iPads, smaller devices) */
 @media (min-width: 768px) {
 
+  .card__description {
+    text-align: center;
+    max-width: 600px;
+  }
+
   .card__image-container {
     height: 220px;
     width: 400px;

@@ -24,16 +24,13 @@
 
 /* Tablet (Portrait and above, e.g., iPads, smaller devices) */
 @media (min-width: 768px) {
-
-
-
+  .nav__link {
+    font-size: 120px;
+  }
 }
 
 /* Desktop (Laptops and larger screens) */
 @media (min-width: 1024px) {
-  .nav__links {
-    font-size: 120px;
-  }
 }
 
 /* Wide-screen (Large desktops, wide monitors, etc.) */
