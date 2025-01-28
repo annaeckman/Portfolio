@@ -1,20 +1,15 @@
 .header {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  min-height: 720px;
-  max-height: 1000px;
   /* background-color: #050397b9; */
   background-color: var(--main-bg-color);
-  padding-left: 30px;
 }
 
 .header__title-big {
   justify-content: flex-start;
-  max-width: 400px;
-  font-family: "Nevrada";
+  font-family: "Nevrada"; 
   line-height: 0.7;
-  font-size: 120px;
+  font-size: 60px;
   font-weight: bold;
   text-decoration: none;
   color: rgb(157, 231, 246);
@@ -42,7 +37,6 @@
 
 .header__title {
   justify-content: flex-start;
-  max-width: 400px;
   font-family: "Nevrada";
   line-height: 0.7;
   font-size: 120px;
@@ -57,5 +51,23 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 536px) {
+/* Tablet (Portrait and above, e.g., iPads, smaller devices) */
+@media (min-width: 768px) {
+
+
+
+}
+
+/* Desktop (Laptops and larger screens) */
+@media (min-width: 1024px) {
+  .header__title-big {
+    font-size: 120px;
+  }
+  
+}
+
+/* Wide-screen (Large desktops, wide monitors, etc.) */
+@media (min-width: 1440px) {
+
+
 }

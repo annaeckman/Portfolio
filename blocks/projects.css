@@ -1,19 +1,13 @@
 .projects {
-  height: 100vh;
-  /* background-color: #050397b9; */
   background-color: var(--main-bg-color);
   color: rgb(157, 231, 246);
 }
 
 .projects__list {
-  padding-top: 400px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 400px);
-  grid-gap: 30px 30px;
-  justify-content: center;
   list-style: none;
   margin-bottom: 0;
   margin-top: 0;
+  padding-left: 0;
 }
 
 @media screen and (max-width: 1200px) {

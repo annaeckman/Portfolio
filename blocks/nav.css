@@ -1,23 +1,17 @@
 .nav {
   display: flex;
   justify-content: flex-end;
-  padding: 30px 30px;
-  margin-top: 100px;
 }
 
 .nav__links {
-  display: flex;
   list-style-type: none;
-  row-gap: 35px;
   padding: 0;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
 }
 
 .nav__link {
+  line-height: 0.7;
   font-family: "Nevrada";
-  font-size: 120px;
+  font-size: 50px;
   font-weight: bold;
   text-decoration: none;
   color: rgb(157, 231, 246);
@@ -28,8 +22,22 @@
   color: #2f80ed;
 }
 
-@media screen and (max-width: 1200px) {
-  .nav {
-    justify-content: flex-start;
+/* Tablet (Portrait and above, e.g., iPads, smaller devices) */
+@media (min-width: 768px) {
+
+
+
+}
+
+/* Desktop (Laptops and larger screens) */
+@media (min-width: 1024px) {
+  .nav__links {
+    font-size: 120px;
   }
+}
+
+/* Wide-screen (Large desktops, wide monitors, etc.) */
+@media (min-width: 1440px) {
+
+
 }
